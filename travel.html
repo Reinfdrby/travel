@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +20,24 @@
                         <p class='header__text_1'>мое новое путешествие</p>
                         <p class='header__text_2'>Давай спланируем идеальную поездку и сохраним впечатления навсегда</p>
                     </div>
+                </div>
+                <div class="header__small_header">
+                    <div class="header__burger">
+                        <span> </span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li> 
+                                <a href="" class="header__list">На главную</a>
+                            </li>
+                            <li> 
+                                <a href="" class="header__list">Личный кабинет</a>
+                            </li>
+                            <li> 
+                                <a href="" class="header__list">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="header__signs">
                     <div class='header__signs__s'>
@@ -99,7 +117,7 @@
                     <div class="content__avto">
                         <div class="avto_forms">
                             <div class="car">
-                                <img class="car" src="im/car1.png" alt="">
+                                <img src="im/car1.png" alt="">
                             </div>
                             <div class="car_text">
                                 <p>Комфорт-класс - от 1.900 руб.</p>
@@ -107,12 +125,13 @@
                         </div>
                         <div class="avto_forms">
                             <div class="car">
-                                <img class="car" src="im/car2.png" alt="">
+                                <img src="im/car2.png" alt="">
                             </div>
                             <div class="car_text">
                                 <p>SUV - от 2.200 руб.</p>
                             </div>
                         </div>
+                        <!--
                         <div class="avto_forms">
                             <div class="car">
                                 <img class="car" src="im/car3.png" alt="">
@@ -128,7 +147,7 @@
                             <div class="car_text">
                                 <p>Премиум-класс - от 5.900 руб.</p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -137,5 +156,7 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src='js/burger.js'></script>
 </body>
 </html>
